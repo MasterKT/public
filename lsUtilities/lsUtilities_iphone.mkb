@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the lsUtilities extension on iphone
+platform IPHONE
+
+options
+{
+    lib
+    output-name="lib/iphone/liblsUtilities.a"
+    output-name-debug="lib/iphone/liblsUtilities_d.a"
+}
+define S3E_BUILD_EXT
+
+subproject lsUtilities_build

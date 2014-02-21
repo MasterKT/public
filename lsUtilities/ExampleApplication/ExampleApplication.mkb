@@ -1,0 +1,14 @@
+#!/usr/bin/env mkb
+files
+{
+    ExampleApplication.cpp
+}
+
+subprojects
+{
+	../lsUtilities
+}
+options
+{
+    strict
+}
